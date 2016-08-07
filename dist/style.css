@@ -1,0 +1,18 @@
+body{
+  background-color: #161616;
+  font-family: Roboto;
+  color: #fff;
+}
+header h1{
+  font-size: 5em;
+}
+.temperature-text{
+	font-size: 36px;
+}
+.converter{
+	color: #006dcc;
+	cursor: pointer;
+}
+.weather-icon{
+	height: 10%;
+}

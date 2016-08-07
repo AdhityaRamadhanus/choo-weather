@@ -1,0 +1,21 @@
+{
+  "name": "choo-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile" : "browserify app.js -o dist/app.js",
+    "view" : "budo --serve=dist/app.js --open"
+  },
+  "keywords": ["free code camp", "local weather", "choo", "choo.js", "openweather api"],
+  "author": "Adhitya Ramadhanus",
+  "email" : "adhitya.ramadhanus@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "choo": "^3.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0"
+  }
+}
